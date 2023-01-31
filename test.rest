@@ -1,0 +1,29 @@
+GET http://localhost:3000/api/biodata
+
+###
+GET http://localhost:3000/api/biodata/1
+
+###
+POST http://localhost:3000/api/biodata
+Content-Type: application/json
+
+{
+    "name": "mahardika",
+    "address": "bekasi",
+    "phone": "082121370619",
+    "email": "dika@gmail.com"
+}
+
+###
+PUT http://localhost:3000/api/biodata/1
+Content-Type: application/json
+
+{
+    "name": "kiki",
+    "address": "bekasi",
+    "phone": "082121370619",
+    "email": "dika@gmail.com"
+}
+
+###
+DELETE http://localhost:3000/api/biodata/1

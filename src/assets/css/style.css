@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+h1{
+    font-size: 4vmax;
+}
+
+#mainScreen{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/main-bg.jpg);
+    background-size: 100% 100vh;
+}
+
+#gameChoice{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/the-games-bg.jpg);
+    background-size: 100% 100vh;
+}
+
+#gameFeatures{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/features.jpg);
+    background-size: 100% 100vh;
+}
+
+#gameRequirements{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/requirements.png);
+    background-size: 100% 100vh;
+}
+
+#topScores{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/top-score-bg.png);
+    background-size: 100% 100vh;
+}
+
+#newsletter {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/newsletter.png);
+    background-size: 100% 100vh; 
+}
+
+#menuFooter > .footer >.ul > .li  {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#games1{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 98px;
+letter-spacing: 0.1em;
+color: #724C21;
+}
+
+.batu{
+    width: 128px;
+    height: 80px;
+    left: 382px;
+    top: 267px;
+}
+
+.kertas{
+    width: 128px;
+    height: 80px;
+    left: 382px;
+    top: 267px;
+
+}
+
+.gunting{
+    width: 128px;
+    height: 80px;
+    left: 382px;
+    top: 267px;
+}
+.logo{
+    width: 72px;
+    height: 72px;
+    left: 119px;
+    top: 27px;
+}
+
+.refresh{
+    width: 77px;
+height: 71px;
+}
+
